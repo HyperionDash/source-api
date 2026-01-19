@@ -3,7 +3,8 @@
 	"package": "net.hyper.source_api.mixin.client",
 	"compatibilityLevel": "JAVA_21",
 	"client": [
-		"PlayerEntityRendererMixin"
+		"PlayerEntityRendererMixin",
+        "PlayerHeldItemFeatureRendererMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1

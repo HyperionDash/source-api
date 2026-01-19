@@ -18,6 +18,6 @@ public class PlayerEntityRendererMixin {
     @Inject(method = "getArmPose", at = @At("TAIL"), cancellable = true)
     private static void doubleHandedWeaponPose(AbstractClientPlayerEntity player, Hand hand, CallbackInfoReturnable<BipedEntityModel.ArmPose> cir) {
         if (player.getStackInHand(Hand.MAIN_HAND). isIn(ModTags.Items.DOUBLE_HANDED_WEAPONS))
-            cir.setReturnValue(BipedEntityModel.ArmPose.CROSSBOW_HOLD);
+            cir.setReturnValue(BipedEntityModel.ArmPose.CROSSBOW_CHARGE);
     }
 }

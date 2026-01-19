@@ -3,23 +3,21 @@
 	"id": "source_api",
 	"version": "${version}",
 	"name": "Source API",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "a small but simple not so api api mod for minecraft fabric 1.21.1",
 	"authors": [
-		"Me!"
+		"HyperionDash"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "https://modrinth.com/project/NYXhX2bX",
+		"sources": "https://github.com/HyperionDash/source-api",
+		"issues": "https://github.com/HyperionDash/source-api/issues"
 	},
-	"license": "CC0-1.0",
+	"license": "MIT",
 	"icon": "assets/source_api/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
 			"net.hyper.source_api.SourceAPI"
-		],
-		"client": [
-			"net.hyper.source_api.SourceAPIClient"
 		]
 	},
 	"mixins": [
