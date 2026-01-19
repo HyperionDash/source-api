@@ -31,11 +31,11 @@ public abstract class PlayerHeldItemFeatureRendererMixin<T extends PlayerEntity,
     protected void renderItem(LivingEntity entity, ItemStack stack, ModelTransformationMode transformationMode, Arm arm, MatrixStack matrices, VertexConsumerProvider vertexConsumers, int light, CallbackInfo ci) {
         if (!entity.isUsingItem()) {
 
-            if ((entity.getMainArm() == Arm.RIGHT && arm == Arm.LEFT) && entity.getMainHandStack().isIn(ModTags.Items.DISABLES_OFFHAND)) {
+            if ((entity.getMainArm() == Arm.RIGHT && arm == Arm.LEFT) && entity.getMainHandStack().isIn(ModTags.Items.VISUALLY_DISABLES_OFFHAND)) {
                 ci.cancel();
                 return;
             }
-            if ((entity.getMainArm() == Arm.LEFT && arm == Arm.RIGHT) && entity.getMainHandStack().isIn(ModTags.Items.DISABLES_OFFHAND)) {
+            if ((entity.getMainArm() == Arm.LEFT && arm == Arm.RIGHT) && entity.getMainHandStack().isIn(ModTags.Items.VISUALLY_DISABLES_OFFHAND)) {
                 ci.cancel();
                 return;
             }
