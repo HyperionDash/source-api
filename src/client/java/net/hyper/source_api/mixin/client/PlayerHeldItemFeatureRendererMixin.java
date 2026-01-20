@@ -39,6 +39,14 @@ public abstract class PlayerHeldItemFeatureRendererMixin<T extends PlayerEntity,
                 ci.cancel();
                 return;
             }
+            if ((entity.getMainArm() == Arm.RIGHT && arm == Arm.LEFT) && entity.getOffHandStack().isIn(ModTags.Items.VISUALLY_DISABLES_MAINHAND)) {
+                ci.cancel();
+                return;
+            }
+            if ((entity.getMainArm() == Arm.LEFT && arm == Arm.RIGHT) && entity.getOffHandStack().isIn(ModTags.Items.VISUALLY_DISABLES_MAINHAND)) {
+                ci.cancel();
+                return;
+            }
             super.renderItem(entity, stack, transformationMode, arm, matrices, vertexConsumers, light);
         }
     }

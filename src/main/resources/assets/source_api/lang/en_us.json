@@ -1,4 +1,24 @@
 {
-  "tag.source_api.double_handed_weapons": "Double Handed Weapons",
-  "tag.source_api.visually_disables_offhand": "Visually Disables Offhand"
+  "tag.source_api.visually_disables_offhand": "Visually Disables Offhand",
+  "tag.source_api.visually_disables_mainhand": "Visually Disables Mainhand",
+
+  "tag.source_api.crossbow_charge_mainhand": "Crossbow Charge Mainhand",
+  "tag.source_api.bow_and_arrow_mainhand": "Bow And Arrow Mainhand",
+  "tag.source_api.crossbow_hold_mainhand": "Crossbow Hold Mainhand",
+  "tag.source_api.spyglass_mainhand": "Spyglass Mainhand",
+  "tag.source_api.throw_spear_mainhand": "Throw Spear Mainhand",
+  "tag.source_api.toot_horn_mainhand": "Toot Horn Mainhand",
+  "tag.source_api.empty_mainhand": "Empty Mainhand",
+  "tag.source_api.block_mainhand": "Block Mainhand",
+  "tag.source_api.brush_mainhand": "Brush Mainhand",
+
+  "tag.source_api.crossbow_charge_offhand": "Crossbow Charge Offhand",
+  "tag.source_api.bow_and_arrow_offhand": "Bow And Arrow Offhand",
+  "tag.source_api.crossbow_hold_offhand": "Crossbow Hold Offhand",
+  "tag.source_api.spyglass_offhand": "Spyglass Offhand",
+  "tag.source_api.throw_spear_offhand": "Throw Spear Offhand",
+  "tag.source_api.toot_horn_offhand": "Toot Horn Offhand",
+  "tag.source_api.empty_offhand": "Empty Offhand",
+  "tag.source_api.block_offhand": "Block Offhand",
+  "tag.source_api.brush_offhand": "Brush Offhand"
 }
